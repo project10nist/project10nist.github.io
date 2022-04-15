@@ -1,0 +1,228 @@
+/* Universal Styles */
+
+body {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+h2 {
+    font-family: "Space Mono", monospace;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 40px 0;
+    color: #BD382F;
+}
+
+h3 {
+    font-family: "Space Mono", monospace;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px dotted #BD382F;
+    background-color: #E3DD6A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h4 {
+    font-family: "Space Mono", monospace;
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h6 {
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+p {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+ul {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: ">> ";
+    margin-left: 30px;
+}
+
+/** Header **/
+
+header {
+    background-color: white;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    top: 0; 
+    text-align: center;
+    padding: 30px 30px;   
+    font-family: "Space Mono", monospace;
+    font-size: 30px;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #BD382F;
+}
+
+.navbar a:hover {
+    text-transform: uppercase;
+}
+
+/** Main **/
+
+.banner {
+    margin-top: 80px;
+    background-color: black;
+}
+
+.banner img {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+/** Sections **/
+
+.index-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E3DD6A;
+    padding: 20px;
+}
+
+.whys {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.whys li {
+    border-left: 3px solid #BD382F;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.whys li:first-of-type {
+    padding-top: 20px;
+}
+
+.red-dash {
+    color: #BD382F;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.connect {
+    text-align: center;
+    margin: 40px;
+}
+
+.where-link{
+    max-width: 200px;
+    display: inline;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+#mail {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+/** Footer **/
+
+footer {
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #E3DD6A;
+    padding: 30px;
+}
+
+footer a {
+    font-family: "Segoe UI", sans-serif;
+    color: #E3DD6A;
+}
+
+/** What Page **/
+
+#what-title, #when-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.what-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.course-status {
+    font-family: "Space Mono", monospace;
+    background-color: lightgray;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.course-info {
+    padding: 20px;
+    border: 1px solid #BD382F;
+    border-radius: 0.8%;
+    margin-top: 80px;
+}
+
+.course-info a {
+    text-decoration: underline;
+    color: black;
+}
+
+.course-info a:hover {
+    text-decoration: none;
+    color: #BD382F;
+}

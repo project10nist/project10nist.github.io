@@ -26,19 +26,26 @@ h3 {
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 2px dotted #BD382F;
-    background-color: #E3DD6A;
+    color: #E3DD6A;
+    background-color: #181818;
+    border-bottom: 3px solid #E3DD6A;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
 
 h4 {
     font-family: "Space Mono", monospace;
     font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 h5 {
@@ -66,6 +73,7 @@ ul {
     font-family: "Segoe UI", sans-serif;
     font-size: 20px;
     margin-left: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
     line-height: 1.5;
 }
@@ -73,6 +81,11 @@ ul {
 li {
     list-style-type: ">> ";
     margin-left: 30px;
+}
+
+i {
+    display: inline-flex;
+    color: #BD382F;
 }
 
 /** Header **/
@@ -121,7 +134,7 @@ header {
     border-radius: 50%;
 }
 
-/** Sections **/
+/** Index Sections **/
 
 .index-section {
     margin-top: 20px;
@@ -190,39 +203,67 @@ footer a {
 /** What Page **/
 
 #what-title, #when-title {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E3DD6A;
+}
+
+button {
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button:hover {
+    color: #BD382F;
 }
 
 .what-section {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
 }
 
-.course-status {
+/* .course-status {
     font-family: "Space Mono", monospace;
     background-color: lightgray;
     text-align: center;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     vertical-align: middle;
-    padding: 5px;
-}
+    padding: 10px;
+} */
 
 .course-info {
     padding: 20px;
-    border: 1px solid #BD382F;
-    border-radius: 0.8%;
-    margin-top: 80px;
+    border: 10px solid #BD382F;
+    margin: 50px 25px;
+    border-radius: 0.3%;
 }
 
-.course-info a {
+.course {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.course a, .course-info a {
     text-decoration: underline;
     color: black;
 }
 
-.course-info a:hover {
+.course a:visited {
+    color: black;
+}
+
+.course a:hover, .course-info a:hover {
     text-decoration: none;
     color: #BD382F;
+}
+
+.course-title {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: super;
 }

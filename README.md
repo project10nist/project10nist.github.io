@@ -1,8 +1,9 @@
-# project10nist.github.io
-## My Learning Log
+# My Learning Experience
+
+[project10nist's Learning Log](project10nist.github.io)
 
 Welcome! This is where I share my self-taught program in all things IT and work on my web development skills.
 
-Feel free to contact me and share your learning experiences, too: **project10nist411 (at) gmail (dot) com**
-  
-PS: There's still quite a bit of lorem ipsum going on.
+I'll make changes to both content and appearance as I learn new tricks.
+
+Feel free to contact me and share your own learning experiences: **project10nist411 (at) gmail (dot) com**

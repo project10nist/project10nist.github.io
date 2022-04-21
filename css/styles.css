@@ -69,7 +69,7 @@ p {
     padding: 10px 0;
 }
 
-ul {
+ul  {
     font-family: "Segoe UI", sans-serif;
     font-size: 20px;
     margin-left: 20px;
@@ -95,15 +95,17 @@ header {
 }
 
 .navbar {
+    background-color: white;
+    font-family: "Space Mono", monospace;
+    font-size: 30px;
+    text-align: center;
     position: fixed;
     width: 100%;
     margin: 0 auto;
     top: 0; 
-    text-align: center;
-    padding: 30px 30px;   
-    font-family: "Space Mono", monospace;
-    font-size: 30px;
-    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #181818;
 }
 
 .navbar li {
@@ -120,7 +122,7 @@ header {
     text-transform: uppercase;
 }
 
-/** Main **/
+/** Banner **/
 
 .banner {
     margin-top: 80px;
@@ -141,6 +143,8 @@ header {
     margin-bottom: 20px;
     background-color: #E3DD6A;
     padding: 20px;
+    padding-bottom: 50px;
+
 }
 
 .whys {
@@ -202,12 +206,103 @@ footer a {
 
 /** What Page **/
 
-#what-title, #when-title {
+#what-title {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #E3DD6A;
+}
+
+.legend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legend i {
+    padding-right: 3px;
+}
+
+.legend p {
+    padding-right: 30px;
+}
+
+.anchor-menu, .anchor-menu ul {
+    background-color: black;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    margin: 20px 0;
+}
+
+.anchor-menu li {
+    list-style-type: none;
+}
+
+.anchor-menu a {
+    color: white;
+}
+
+.anchor-menu a:hover {
+    color: #BD382F;
+    text-decoration: none;
+}
+
+.what-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course-box {
+    padding: 20px;
+    border: 10px solid #E3DD6A;
+    margin: 50px 25px;
+    border-radius: 0.3%;
+}
+
+.course {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.course-inside-box {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.course a, .course-box a {
+    text-decoration: underline;
+    color: black;
+}
+
+.course a:visited {
+    color: black;
+}
+
+.course a:hover, .course-box a:hover {
+    text-decoration: none;
+    color: #BD382F;
+}
+
+.course-title {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: super;
+}
+
+.projects {
+    display: flex;
+}
+
+.project-category {
+    margin-right: 50px;
 }
 
 button {
@@ -220,50 +315,16 @@ button:hover {
     color: #BD382F;
 }
 
-.what-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
+#github-lab {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-/* .course-status {
-    font-family: "Space Mono", monospace;
-    background-color: lightgray;
-    text-align: center;
+#github-lab a {
     font-weight: normal;
-    font-size: 14px;
-    vertical-align: middle;
-    padding: 10px;
-} */
-
-.course-info {
-    padding: 20px;
-    border: 10px solid #BD382F;
-    margin: 50px 25px;
-    border-radius: 0.3%;
 }
 
-.course {
-    margin-top: 50px;
+#github-lab i {
     margin-left: 30px;
-}
-
-.course a, .course-info a {
-    text-decoration: underline;
-    color: black;
-}
-
-.course a:visited {
-    color: black;
-}
-
-.course a:hover, .course-info a:hover {
-    text-decoration: none;
-    color: #BD382F;
-}
-
-.course-title {
-    font-weight: bold;
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: super;
 }

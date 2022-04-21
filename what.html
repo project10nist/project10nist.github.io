@@ -17,11 +17,10 @@
         <header>
             <nav>
                 <ul class="navbar">
-                    <li><a href="index.html #who">Who</a></li>
-                    <li><a href="index.html #why">Why</a></li>
-                    <li><a href="index.html #where">Where</a></li>
+                    <li><a href="index.html#who">Who</a></li>
+                    <li><a href="index.html#why">Why</a></li>
+                    <li><a href="index.html#where">Where</a></li>
                     <li><a href="what.html#what-title">What</a></li>
-                    <li><a href="when.html#when-title">When</a></li>
                 </ul>
             </nav>
         </header>
@@ -32,56 +31,90 @@
             <h1>learning log</h1>
         </main>
 
-        <div id="what-title">
+        <section id="what-title">
             <h2>What</h2>
-            <h6>A subject-matter view of my program</h6>
-        </div>
+            <div class="legend">
+                <i class="material-icons">check_box</i><p>Completed</p>
+                <i class="material-icons">check_box_outline_blank</i><p>Ongoing</p>
+                <i class="material-icons">border_style</i><p>Coming Up</p>
+                <i class="material-icons">attach_file</i><p>Certificate</p>
+            </div>
+        </section>
+        
+        <section class="anchor-menu">
+            <ul>
+                <li><a href="#introductory-courses">Introductory Courses</a></li>
+                <li><a href="#web-dev">Web Development/Design</a></li>
+                <li><a href="#applications">Applications</a></li>
+            </ul>
+        </section>
 
-        <section class="what-section">
+        <section class="what-section" id="introductory-courses">
             <h3>Introductory Courses</h3>
             <article class="course">
-                <i class="material-icons">check_box</i><p class="course-title">Understanding Technology</p>
+                <i class="material-icons">check_box</i><a href="./files/cert_CS50T.pdf" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title">CS50's Understanding Technology</p>
                 <p>at <a href="https://cs50.harvard.edu/technology/2017/" target="_blank">Harvard University</a></p>
                 <p>"This course is for students who don’t (yet) consider themselves computer persons. Designed for students who work with technology every day but don’t necessarily understand how it all works underneath the hood or how to solve problems when something goes wrong, this course fills in the gaps, empowering students to use and troubleshoot technology more effectively. Through lectures on hardware, the Internet, multimedia, security, programming, and web development as well as through readings on current events, this course equips students for today’s technology and prepares them for tomorrow’s as well."</p>
                 <p>Topics: Hardware; Internet; Multimedia; Security; Web Development; Programming.</p>
             </article>
             <article  class="course">
-                <i class="material-icons">check_box</i><p class="course-title">CS50's Computer Science for Business Professionals</p>
+                <i class="material-icons">check_box</i><a href="./files/cert_CS50B.pdf" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title">CS50's Computer Science for Business Professionals</p>
                 <p>at <a href="https://cs50.harvard.edu/business/2017/" target="_blank">Harvard University</a></p>
                 <p>"This course is a variant of CS50x designed especially for business professionals. Whereas CS50x takes a bottom-up approach, emphasizing mastery of low-level concepts and implementation details thereof, this course takes a top-down approach, emphasizing mastery of high-level concepts and design decisions related thereto. Ultimately this course empowers students to make technological decisions even if not technologists themselves. Topics include cloud computing, networking, privacy, scalability, security, and more, with an emphasis on web and mobile technologies. Students emerge from this course with first-hand appreciation of how it all works and all the more confident in the factors that should guide their decision-making. This course is designed for managers, product managers, founders, and decision-makers more generally."</p>
                 <p>Topics: Computational Thinking; Programming Languages; Internet Technologies; Web Development; Technology Stacks; Cloud Computing.</p>
             </article>
             <article class="course">
-                <i class="material-icons">check_box_outline_blank</i><p class="course-title">Introduction to IT</p>
+                <i class="material-icons">check_box</i><a href="./files/cert_cc_intro-to-it.pdf" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title">Introduction to IT</p>
                 <p>at <a href="https://www.codecademy.com/learn/introduction-to-it" target="_blank">Codecademy</a></p>
                 <p>"Take your first steps into the world of IT, or Information Technology! Introduction to IT will teach you about core IT subjects."</p>
                 <p>Topics: Getting Started with IT; Computer Basics; Networks and the Internet; Operating Systems and Applications; Software Development Basics; Databases; Cybersecurity.</p>
             </article>
             <article class="course">
-                <i class="material-icons">check_box</i><p class="course-title">Code Foundations</p>
+                <i class="material-icons">check_box</i><a href="./files/cert_cc_code-foundations.pdf" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title">Code Foundations</p>
                 <p>at <a href="https://www.codecademy.com/learn/paths/code-foundations" target="_blank">Codecademy</a></p>
                 <p>"Interested in learning how to code, but unsure where to start? The Code Foundations path provides an overview of the main applications of programming: computer science, web development, and data science. It also teaches important concepts that you'll find in every programming language, such as variables, functions, and control flow. After completing this path, you'll understand key programming terms and you'll be ready to chart your course to a more technical career."</p>
                 <p>Topics: Introduction; Learn How to Code; Computer Science; Web Development; Data Science.</p>
             </article>
-            
+            <article class="course">
+                <i class="material-icons">border_style</i><p class="course-title">Fundamentals of Operating Systems</p>
+                <p>at <a href="https://www.codecademy.com/learn/fundamentals-of-operating-systems" target="_blank">Codecademy</a></p>
+                <p>"Learn about operating systems by taking a deep dive into each of its main functionalities."</p>
+                <p>Topics: Introduction to Operating Systems; Processes and Threads; Process Scheduling; Synchronization; Memory Management; Filesystems; IO Systems.</p>
+            </article>      
+            <article class="course">
+                <i class="material-icons">border_style</i><p class="course-title">            Introduction to Cybersecurity</p>
+                <p>at <a href="https://www.codecademy.com/learn/introduction-to-cybersecurity" target="_blank">Codecademy</a></p>
+                <p>"Start learning about cybersecurity! This course will cover a range of introductory cybersecurity topics."</p>
+                <p>Topics: What is Cybersecurity?; History & Cybersecurity Standards; Cyber Threats; Cryptography, Authentication, & Authorization; Network Security Basics; Securing Your Personal Devices; Case Studies & Looking Ahead</p>
+            </article>   
         </section>
 
-        <section class="what-section">
-            <h3>Web Development</h3>
-            
-            <div class="course-info">
+        <section class="what-section" id="web-dev">
+            <h3>Web Development/Design</h3>
+
+            <div class="course-box">
                 <i class="material-icons">check_box_outline_blank</i><h4>Full-Stack Engineer Career Path</h4>
                 <p>at <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Codecademy</a></p>
                 <p>"A full-stack engineer can get a project done from start to finish. This Career Path will start with the front-end, move on to the back-end, then teach you how to connect the two."</p>
-                <h5>Challenge Projects</h5>
-                <ul>
-                    <li><a href="https://www.codecademy.com/workspaces/6258cf723b0489de19941d15" target="_blank">Build Your Own Cheat Sheet</a></li>
-                    <li><a href="https://www.codecademy.com/workspaces/6258d0283b0489de19941d99" target="_blank">Build a Website Design System</a></li>
-                </ul>
-                <a href="https://github.com/project10nist/codecademy-fullstack" target="_blank"><button>Download All Projects</button></a>
+                <div class="projects">
+                    <div class="project-category">
+                        <h5>Challenge Projects</h5>
+                        <ul>
+                            <li><a href="https://www.codecademy.com/workspaces/6258cf723b0489de19941d15" target="_blank">Build Your Own Cheat Sheet</a></li>
+                            <li><a href="https://www.codecademy.com/workspaces/6258d0283b0489de19941d99" target="_blank">Build a Website Design System</a></li>
+                        </ul>
+                    </div>
+                    <div class="project-category">
+                        <h5>Off-Platform Projects</h5>
+                        <ul>
+                            <li><a href="#" target="_blank">Tea Cozy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="https://github.com/project10nist/codecademy-fullstack" target="_blank"><button>View All Projects</button></a>
             </div>
             
-            <div class="course-info">
+            <div class="course-box">
                 <i class="material-icons">check_box_outline_blank</i><h4>Responsive Web Design Certification</h4>
                 <p>at <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank">freeCodeCamp</a></p>
                 <p>"In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design."</p>
@@ -91,19 +124,30 @@
                     <li><a href="https://codepen.io/project10nist/pen/ZEvOaYY" target="_blank">Tribute Page</a></li>
                     <li><a href="https://codepen.io/project10nist/pen/LYezegY" target="_blank">Technical Documentation Page</a></li>
                 </ul>
-                <a href="https://github.com/project10nist/freeCodeCamp-certs" target="_blank"><button>Download all projects</button></a>
+                <a href="https://github.com/project10nist/freeCodeCamp-certs" target="_blank"><button>View all projects</button></a>
             </div>
         </section>
 
-        <section class="what-section">
+        <section class="what-section" id="applications">
             <h3>Applications</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptas. Inventore consequatur incidunt reprehenderit libero aliquam laborum vitae fugit eum nam ex, asperiores error accusantium sequi id vero eligendi rerum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius ipsum cupiditate quibusdam veniam explicabo, maiores asperiores, quia laboriosam, voluptatibus odio nemo itaque nobis quo aliquid unde necessitatibus doloremque hic. Hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit deserunt tenetur, aperiam perspiciatis consectetur neque impedit in, quod excepturi suscipit, illum dolor. Temporibus eligendi id eum nam maiores optio?</p>
+
+            <div class="course-box">
+                <h4>Git and GitHub</h4>
+                <article class="course-inside-box">
+                    <i class="material-icons">check_box</i><a href="./files/cert_LL_learning-github.pdf" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title">Learning GitHub</p>
+                    <p>at <a href="https://www.linkedin.com/learning/learning-github/" target="_blank">LinkedIn Learning</a></p>
+                    <p>"GitHub is the industry-standard tool for collaborating on and sharing code. It’s popular among software developers, project managers, designers, and students for its flexibility and control. This course introduces GitHub and Git, the version control system that GitHub is built upon. Instructor Aaron Stewart, a training content specialist at GitHub, explains the benefits of version control, how to navigate GitHub and the command line, how GitHub and Git are related, and the best practices for communication and collaboration on GitHub. Aaron also reviews the most common tasks, such as branching, commits, and pull requests, and shows you how to create a simple local project and move it to GitHub to share with your team. Once you have completed the course, you should be able to immediately start using Git and GitHub to manage your own code."</p>
+                </article>
+                <article class="course-inside-box" id="github-lab">
+                    <p class="course-title">/// GitHub Learning Lab ///</p><br>
+                    <i class="material-icons">check_box</i><p class="course-title"><a href="https://lab.github.com/githubtraining/introduction-to-github" target="_blank">Introduction to GitHub</a></p>
+                    <i class="material-icons">check_box</i><p class="course-title"><a href="https://lab.github.com/githubtraining/uploading-your-project-to-github" target="_blank">Uploading your project to GitHub</a></p>
+                    <i class="material-icons">check_box</i><p class="course-title"><a href="https://lab.github.com/githubtraining/github-pages" target="_blank">GitHub Pages</a></p>
+                    <i class="material-icons">check_box</i><p class="course-title"><a href="https://lab.github.com/githubtraining/communicating-using-markdown" target="_blank">Communicating using Markdown</a></p>
+                </article>     
+            </div> 
+            
         </section>
-        
-        <section class="what-section">
-            <h3>Programming</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, voluptas. Inventore consequatur incidunt reprehenderit libero aliquam laborum vitae fugit eum nam ex, asperiores error accusantium sequi id vero eligendi rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, eos! Consectetur nisi numquam, architecto quisquam dolores ad doloribus! Molestias eius nisi tempora fugiat amet eaque iste ad facilis mollitia et? Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit dicta molestias exercitationem voluptates odio eum magni quo, ipsum delectus veniam officiis architecto reprehenderit quisquam nisi. Natus, dignissimos. Quod, omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde porro facere molestiae ducimus quas amet. Dolor rem, minus, magnam beatae doloribus omnis consequatur, aliquid temporibus nihil expedita dolore. Voluptate, ipsam.</p>
-        </section> 
         
     </body>
            
@@ -112,3 +156,12 @@
     </footer>
 
 </html>
+
+
+<!-- COURSE TEMPLATE -->
+<!-- <article class="course">
+    <i class="material-icons">check_box</i><a href="#" target="_blank"><i class="material-icons">attach_file</i></a><p class="course-title"></p>
+    <p>at <a href="#" target="_blank"></a></p>
+    <p>(description)</p>
+    <p>Topics: </p>
+</article>       -->

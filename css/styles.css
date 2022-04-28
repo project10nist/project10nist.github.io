@@ -315,16 +315,16 @@ button:hover {
     color: #BD382F;
 }
 
-#github-lab {
+.course-bundle  {
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-#github-lab a {
+.course-bundle a {
     font-weight: normal;
 }
 
-#github-lab i {
+.course-bundle i {
     margin-left: 30px;
 }

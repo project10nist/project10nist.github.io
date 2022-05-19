@@ -229,6 +229,11 @@ footer a {
     padding-right: 30px;
 }
 
+.anchor-menu {
+    position: sticky;
+    top: 75px;
+}
+
 .anchor-menu, .anchor-menu ul {
     background-color: black;
     color: white;
@@ -236,7 +241,7 @@ footer a {
     font-size: 20px;
     width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin: 20px 0;
 }
 
@@ -276,7 +281,8 @@ footer a {
     margin-left: 30px;
 }
 
-.course a, .course-box a {
+.course a, 
+.course-box a {
     text-decoration: underline;
     color: black;
 }
@@ -321,10 +327,25 @@ button:hover {
     align-items: center;
 }
 
-.course-bundle a {
+.course-list {
+    list-style-type: none;
+}
+
+.course-bundle a,
+.course-list a {
     font-weight: normal;
 }
 
 .course-bundle i {
     margin-left: 30px;
 }
+
+.course-list li {
+    display: flex;
+
+}
+
+.course-list i {
+    margin-right: 10px;
+}
+

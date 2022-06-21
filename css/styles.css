@@ -87,6 +87,9 @@ i {
     display: inline-flex;
     color: #BD382F;
 }
+.gray {
+    color: gray;
+}
 
 /** Header **/
 
